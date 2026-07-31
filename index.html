@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="addTabIndex()">
+	<h1>My Photo Gallery</h1>
+	<div class="dad">
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	<div class="gallery">
+	<img class = "preview" alt = "Beautiful landscape of Easedale Tarn with mountains and clear sky in Lake District, UK" src = "images/lake.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "A picturesque view of Edinburgh Castle from a street, framed by vivid yellow spring flowers" src = "images/castle.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()"onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" src = "images/causeway.jpg" alt = "Stunning view of Giant's Causeway with hexagonal basalt columns and cliffs" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Breathtaking landscape of Geirangerfjord surrounded by snow-capped mountains and lush greenery in Norway" src = "images/Geirangerfjord.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "A breathtaking scenic view of the Lofoten Islands showcasing stunning mountains and blue sea waters" src = "images/LofotenIslands.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+	<img class = "preview" alt = "Breathtaking aerial view of the iconic Trolltunga rock formation overlooking a serene lake in Ullensvang, Norway" src = "images/Trolltunga.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+</div>
+</div>
+</body>
+</html>
